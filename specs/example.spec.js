@@ -6,7 +6,7 @@ describe('Math functions', function (){
     const b = 5
     const c = 9
     const d = -1;
-    it('A + B = C', function(){
+    it.skip('A + B = C', function(){
         expect(a + b).to.eq(c)
     })
     //if want to execute only specific test type only
